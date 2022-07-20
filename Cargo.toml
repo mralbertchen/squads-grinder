@@ -1,0 +1,10 @@
+[package]
+name = "squads-grinder"
+version = "0.1.0"
+edition = "2021"
+description = "Grind for a vanity multsig address"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+solana-sdk = "1.10.5"
