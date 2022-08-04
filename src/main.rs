@@ -40,7 +40,7 @@ fn main() {
             let keypair = Keypair::new();
             let create_key = keypair.pubkey();
             let program_id =
-                Pubkey::try_from("84Ue9gKQUsStFJQCNQpsqvbceo7fKYSSCCMXxMZ5PkiW").unwrap();
+                Pubkey::try_from("SMPLecH534NA9acpos4G6x7uf3LWbCAwZQE9e8ZekMu").unwrap();
 
             let (ms_pda, _) = Pubkey::find_program_address(
                 &[b"squad", create_key.as_ref(), b"multisig"],
